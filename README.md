@@ -1,6 +1,6 @@
 ## CS5293sp23 – Project1
 
-## Name: Harsha Vardhan
+## Name: Likhitha Reddy Gundre
 
 ## PROJECT DESCRIPTION:
 This project aims to redact sensitive information from a text file which has contents from http://www.enron-mail.com/. All the sensitive information such as names, address, gender, dates and phone numbers are redacted when a file is passed as an argument to run this program. A unicode character is used to replace and hide the sensitive information. After redaction, statistics of redacted data is stored in stats file and can be seen in the output. 
@@ -19,9 +19,6 @@ pipenv run python redactor.py --input '*.txt' --names --dates --phones --genders
 Run the pytests: 
 pipenv run python -m pytest
 
-# Video
-
-https://user-images.githubusercontent.com/114453047/230698915-5bf21b54-6f1b-4aa2-863b-2ec12188012e.mp4
 
 ## FUNCTIONS
 
